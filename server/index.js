@@ -10,7 +10,7 @@ const productRouter = require("./routes/product");
 // INIT
 const PORT = process.env.PORT || 3000;
 const app = express();
-const DB = "mongodb+srv://herbeysoft:Alao1234@cluster0.8zjssmt.mongodb.net/?retryWrites=true&w=majority";
+const DB = "YOUR_MANGODB_ID";
 
 // middleware
 app.use(express.json());
